@@ -1,0 +1,62 @@
+/*colors*/
+:root {
+    --text-color-white: #FFFFFF;
+    --text-color-black: #323232;
+    --text-color-grey: #999999;
+    --accent-color: #4985FF;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.58;
+    margin: 0;
+}
+
+h1 {
+    color: var(--text-color-white);
+}
+.nav-list-item .link {
+    color: var(--text-color-white);
+    font-weight: 500;   
+    line-height: 1.25;
+    text-decoration: none;
+}
+.nav-list-item .link:hover,
+.nav-list-item .link:focus {
+    color: var(--accent-color);
+}
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.page-header {
+    background-color: grey;
+}
+.hero {
+    background-color: grey;
+}
+.hero-text {
+    font-weight: 500;
+    line-height: 1.25;
+    color: var(--text-color-white);
+}
+.hero-titel {
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 1.33;
+    text-align: center;
+}
+.btn {
+    width: 200px;
+    height: 45px;
+    color: var(--text-color-white);
+    font-weight: 500;
+    line-height: 1.25;
+    background-color: var(--accent-color);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
