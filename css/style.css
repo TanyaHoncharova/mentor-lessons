@@ -10,6 +10,7 @@ body {
     font-size: 16px;
     line-height: 1.58;
     margin: 0;
+    background-color: tomato;
 }
 
 h1 {
@@ -59,4 +60,12 @@ h1 {
     align-items: center;
     justify-content: center;
     text-decoration: none;
+}
+
+.icon { 
+        width: 40px;
+        height: 40px;
+    /* border: 1px solid #4985FF;
+    box-sizing: border-box; */
+
 }
